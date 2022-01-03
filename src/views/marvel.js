@@ -9,6 +9,7 @@ const AspectRatio = ({ width, height, children }) => (
     </div>
   </div>
 )
+
 const MarvelInput = ({ identifier, record }) => {
   const setLink = (e) => {
     const value = e.target.value
@@ -50,7 +51,7 @@ const MarvelAttribute = ({ identifier, record, src }) => {
       <>
         <MarvelEmbed src={src} />
         <div style={{ display: "flex", justifyContent: "space-between", marginTop: "10px" }}>
-          <aha-button kind="secondary" size="small" href={src} target="_blank" noreferrer>
+          <aha-button kind="secondary" size="small" href={src} target="_blank" rel="noopener noreferrer">
             View in Marvel
           </aha-button>
           <aha-button kind="secondary" size="small" onClick={removeLink}>
