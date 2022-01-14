@@ -16,7 +16,7 @@
     "contributes": {
       "views": {
         "marvel": {
-          "title": "Prototype",
+          "title": "Marvel",
           "entryPoint": "src/views/marvel.js",
           "host": "attribute",
           "recordTypes": [
