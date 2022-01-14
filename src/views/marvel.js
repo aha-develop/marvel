@@ -30,8 +30,7 @@ const MarvelEmbed = ({ src }) => (
       width="100%"
       height="100%"
       allowTransparency={true}
-      frameborder="0"
-      style={{ "-webkit-clip-path": "inset(2px 2px)", "clip-path": "inset(2px 2px);" }}
+      style={{ border: '1px solid var(--theme-primary-border)', "-webkit-clip-path": "inset(2px 2px)", "clip-path": "inset(2px 2px);" }}
     >
     </iframe>
   </AspectRatio>
