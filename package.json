@@ -9,10 +9,13 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@aha-app/aha-develop-react": "link:../aha-develop-react",
     "@types/react": "^16.8.0"
   },
   "ahaExtension": {
-    "cspSources": ["https://marvelapp.com"],
+    "cspSources": [
+      "https://marvelapp.com"
+    ],
     "contributes": {
       "views": {
         "marvel": {
