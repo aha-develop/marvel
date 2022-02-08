@@ -18,15 +18,20 @@
     ],
     "contributes": {
       "views": {
-        "marvel": {
+        "marvelAttribute": {
           "title": "Marvel",
-          "entryPoint": "src/views/marvel.js",
+          "entryPoint": "src/views/attribute.js",
           "host": "attribute",
           "recordTypes": [
             "Feature",
             "Requirement",
             "Epic"
           ]
+        },
+        "marvelPanel": {
+          "title": "Marvel",
+          "entryPoint": "src/views/panel.js",
+          "host": "panel"
         }
       }
     }
