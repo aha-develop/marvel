@@ -5,6 +5,7 @@ This [Aha! Develop](https://www.aha.io/develop/overview) extension allows you to
 It provides these contributions:
 
 - `Marvel attribute` - Link a Marvel prototype to a record in Aha! to see a live preview of the design.
+- `Marvel panel` - Embed a Marvel prototype in a note in Aha! to see a live preview of the design.
 
 ## Demo
 
