@@ -1,5 +1,5 @@
 import React from "react";
-import { EmbeddedContent } from "@aha-app/aha-develop-react";
+import { EmbeddedContent } from "@aha-develop/aha-develop-react";
 import { ensureEmbedFlags } from "../ensureEmbedFlags";
 
 const AhaPanel = aha.getPanel("aha-develop.marvel", "marvelPanel", { name: "Marvel" });

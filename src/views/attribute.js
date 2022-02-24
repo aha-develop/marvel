@@ -1,5 +1,5 @@
 import React from "react";
-import { EmbeddedContentAttribute } from "@aha-app/aha-develop-react";
+import { EmbeddedContentAttribute } from "@aha-develop/aha-develop-react";
 import { ensureEmbedFlags } from "../ensureEmbedFlags";
 
 aha.on("marvelAttribute", ({ record, fields }, { identifier }) => {
