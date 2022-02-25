@@ -1,4 +1,6 @@
 export const ensureEmbedFlags = (url) => {
+  if (!url) return
+
   if (url.includes('emb=1')) {
     return url;
   } else {
