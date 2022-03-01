@@ -1,7 +1,7 @@
 {
-  "name": "aha-develop.marvel",
+  "name": "@aha-develop/marvel",
   "description": "Marvel embed",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "support@aha.io",
   "repository": {
     "type": "git",
