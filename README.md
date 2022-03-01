@@ -15,7 +15,7 @@ It provides these contributions:
 
 **Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**
 
-Install the Marvel extension by clicking [here](https://secure.aha.io/settings/account/extensions/install?url=).
+Install the Marvel extension by clicking [here](https://secure.aha.io/settings/account/extensions/install?url=https%3A%2F%2Fsecure.aha.io%2Fextensions%2Faha-develop.marvel.gz).
 
 ## Working on the extension
 
